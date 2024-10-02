@@ -7,11 +7,11 @@ export const Celebrities = () => {
 
     for (const star of celebrities) {
         html += `<li 
-                    data-id="${celebrity.id}" 
+                    data-id="${celebrities.id}" 
                     data-type="celebrity"
-                    data-sport="${celebrty.sport}"
-                    id="star--${celebrity.id}">
-                    ${celebrity.name}
+                    data-sport="${celebrities.sport}"
+                    id="star--${celebrities.id}">
+                    ${celebrities.name}
                 </li>`
     }
 

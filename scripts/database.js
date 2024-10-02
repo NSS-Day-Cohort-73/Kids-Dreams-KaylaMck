@@ -102,3 +102,11 @@ const database = {
         wish: "Put out a fire as a fireman after riding on the truck with the siren on"
     }]
 }
+
+export const getChildren = () => {
+    return database.children.map(children => ({...children}))
+}
+
+export const getCelebrities = () => {
+    return database.celebrities.map(celebrities => ({...celebrities}))
+}
